@@ -56,7 +56,16 @@
                                   <block type="oled_drawtext" id="651">
                                     <field name="TEXT">I have stage fright.</field>
                                     <next>
-                                      <block type="movement_stop" id="677"></block>
+                                      <block type="robot_delay" id="718" inline="true">
+                                        <value name="DELAY">
+                                          <block type="math_number" id="746">
+                                            <field name="NUM">5000</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="movement_stop" id="677"></block>
+                                        </next>
+                                      </block>
                                     </next>
                                   </block>
                                 </next>
