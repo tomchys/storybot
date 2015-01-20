@@ -1,1 +1,3 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="oled_cleardisplay" id="55" x="-178" y="-523"></block>
+</xml>
