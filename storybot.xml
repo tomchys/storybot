@@ -1,3 +1,78 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="55" x="-178" y="-523"></block>
+  <block type="variables_set" id="447" inline="true" x="-196" y="-586">
+    <field name="VAR">delay</field>
+    <value name="VALUE">
+      <block type="math_number" id="477">
+        <field name="NUM">500</field>
+      </block>
+    </value>
+    <next>
+      <block type="variables_set" id="200" inline="true">
+        <field name="VAR">linestart</field>
+        <value name="VALUE">
+          <block type="math_number" id="170">
+            <field name="NUM">10</field>
+          </block>
+        </value>
+        <next>
+          <block type="oled_cleardisplay" id="55">
+            <next>
+              <block type="oled_setcursor" id="112" inline="true">
+                <value name="STARTX">
+                  <block type="variables_get" id="220">
+                    <field name="VAR">linestart</field>
+                  </block>
+                </value>
+                <value name="STARTY">
+                  <block type="math_number" id="147">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="oled_drawtext" id="235">
+                    <field name="TEXT">Hello there!!!</field>
+                    <next>
+                      <block type="robot_delay" id="442" inline="true">
+                        <value name="DELAY">
+                          <block type="variables_get" id="498">
+                            <field name="VAR">delay</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="movement_stutter" id="556">
+                            <next>
+                              <block type="oled_setcursor" id="236" inline="true">
+                                <value name="STARTX">
+                                  <block type="variables_get" id="237">
+                                    <field name="VAR">linestart</field>
+                                  </block>
+                                </value>
+                                <value name="STARTY">
+                                  <block type="math_number" id="238">
+                                    <field name="NUM">18</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="oled_drawtext" id="651">
+                                    <field name="TEXT">I have stage fright.</field>
+                                    <next>
+                                      <block type="movement_stop" id="677"></block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
 </xml>
