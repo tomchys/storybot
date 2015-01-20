@@ -41,29 +41,38 @@
                         <next>
                           <block type="movement_stutter" id="556">
                             <next>
-                              <block type="oled_setcursor" id="236" inline="true">
-                                <value name="STARTX">
-                                  <block type="variables_get" id="237">
-                                    <field name="VAR">linestart</field>
-                                  </block>
-                                </value>
-                                <value name="STARTY">
-                                  <block type="math_number" id="238">
-                                    <field name="NUM">18</field>
+                              <block type="robot_delay" id="798" inline="true">
+                                <value name="DELAY">
+                                  <block type="variables_get" id="827">
+                                    <field name="VAR">delay</field>
                                   </block>
                                 </value>
                                 <next>
-                                  <block type="oled_drawtext" id="651">
-                                    <field name="TEXT">I have stage fright.</field>
+                                  <block type="oled_setcursor" id="236" inline="true">
+                                    <value name="STARTX">
+                                      <block type="variables_get" id="237">
+                                        <field name="VAR">linestart</field>
+                                      </block>
+                                    </value>
+                                    <value name="STARTY">
+                                      <block type="math_number" id="238">
+                                        <field name="NUM">18</field>
+                                      </block>
+                                    </value>
                                     <next>
-                                      <block type="robot_delay" id="718" inline="true">
-                                        <value name="DELAY">
-                                          <block type="math_number" id="746">
-                                            <field name="NUM">5000</field>
-                                          </block>
-                                        </value>
+                                      <block type="oled_drawtext" id="651">
+                                        <field name="TEXT">I have stage fright.</field>
                                         <next>
-                                          <block type="movement_stop" id="677"></block>
+                                          <block type="robot_delay" id="718" inline="true">
+                                            <value name="DELAY">
+                                              <block type="math_number" id="746">
+                                                <field name="NUM">5000</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="movement_stop" id="677"></block>
+                                            </next>
+                                          </block>
                                         </next>
                                       </block>
                                     </next>
