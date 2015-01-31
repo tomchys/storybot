@@ -70,7 +70,13 @@
                                               </block>
                                             </value>
                                             <next>
-                                              <block type="movement_stop" id="21"></block>
+                                              <block type="movement_stop" id="21">
+                                                <next>
+                                                  <block type="multimedia_playwav" id="171">
+                                                    <field name="WAV">_start.wav</field>
+                                                  </block>
+                                                </next>
+                                              </block>
                                             </next>
                                           </block>
                                         </next>
