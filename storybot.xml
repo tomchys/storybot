@@ -91,6 +91,11 @@
                                                             <next>
                                                               <block type="oled_drawtext" id="209">
                                                                 <field name="TEXT">Much better.</field>
+                                                                <next>
+                                                                  <block type="multimedia_playwav" id="250">
+                                                                    <field name="WAV">_SndTest.wav</field>
+                                                                  </block>
+                                                                </next>
                                                               </block>
                                                             </next>
                                                           </block>
