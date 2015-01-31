@@ -72,8 +72,31 @@
                                             <next>
                                               <block type="movement_stop" id="21">
                                                 <next>
-                                                  <block type="multimedia_playwav" id="171">
+                                                  <block type="multimedia_playwav" id="22">
                                                     <field name="WAV">_start.wav</field>
+                                                    <next>
+                                                      <block type="oled_cleardisplay" id="23">
+                                                        <next>
+                                                          <block type="oled_setcursor" id="155" inline="true">
+                                                            <value name="STARTX">
+                                                              <block type="variables_get" id="161">
+                                                                <field name="VAR">linestart</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="STARTY">
+                                                              <block type="math_number" id="194">
+                                                                <field name="NUM">18</field>
+                                                              </block>
+                                                            </value>
+                                                            <next>
+                                                              <block type="oled_drawtext" id="209">
+                                                                <field name="TEXT">Much better.</field>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
                                                   </block>
                                                 </next>
                                               </block>
