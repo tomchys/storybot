@@ -3,7 +3,7 @@
     <field name="VAR">delay</field>
     <value name="VALUE">
       <block type="math_number" id="2">
-        <field name="NUM">500</field>
+        <field name="NUM">1000</field>
       </block>
     </value>
     <next>
@@ -121,7 +121,7 @@
                                                                                     <next>
                                                                                       <block type="robot_delay" id="505" inline="true">
                                                                                         <value name="DELAY">
-                                                                                          <block type="variables_get" id="506">
+                                                                                          <block type="variables_get" id="508">
                                                                                             <field name="VAR">delay</field>
                                                                                           </block>
                                                                                         </value>
@@ -143,7 +143,7 @@
                                                                                                 <next>
                                                                                                   <block type="robot_delay" id="499" inline="true">
                                                                                                     <value name="DELAY">
-                                                                                                      <block type="variables_get" id="500">
+                                                                                                      <block type="variables_get" id="507">
                                                                                                         <field name="VAR">delay</field>
                                                                                                       </block>
                                                                                                     </value>
