@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="variables_set" id="1" inline="true" x="-196" y="-586">
+  <block type="variables_set" id="1" inline="true" x="-171" y="-563">
     <field name="VAR">delay</field>
     <value name="VALUE">
       <block type="math_number" id="2">
@@ -99,10 +99,10 @@
                                                                       </block>
                                                                     </value>
                                                                     <next>
-                                                                      <block type="multimedia_playwav" id="250">
-                                                                        <field name="WAV">_SndTest.wav</field>
+                                                                      <block type="oled_cleardisplay" id="483">
                                                                         <next>
-                                                                          <block type="oled_cleardisplay" id="483">
+                                                                          <block type="multimedia_playwav" id="729">
+                                                                            <field name="WAV">_SndTest.wav</field>
                                                                             <next>
                                                                               <block type="oled_setcursor" id="484" inline="true">
                                                                                 <value name="STARTX">
