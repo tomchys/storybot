@@ -77,98 +77,98 @@
                                                     <next>
                                                       <block type="oled_cleardisplay" id="23">
                                                         <next>
-                                                          <block type="oled_setcursor" id="155" inline="true">
+                                                          <block type="oled_setcursor" id="24" inline="true">
                                                             <value name="STARTX">
-                                                              <block type="variables_get" id="161">
+                                                              <block type="variables_get" id="25">
                                                                 <field name="VAR">linestart</field>
                                                               </block>
                                                             </value>
                                                             <value name="STARTY">
-                                                              <block type="math_number" id="194">
+                                                              <block type="math_number" id="26">
                                                                 <field name="NUM">18</field>
                                                               </block>
                                                             </value>
                                                             <next>
-                                                              <block type="oled_drawtext" id="209">
+                                                              <block type="oled_drawtext" id="27">
                                                                 <field name="TEXT">Much better.</field>
                                                                 <next>
-                                                                  <block type="robot_delay" id="455" inline="true">
+                                                                  <block type="robot_delay" id="28" inline="true">
                                                                     <value name="DELAY">
-                                                                      <block type="variables_get" id="481">
+                                                                      <block type="variables_get" id="29">
                                                                         <field name="VAR">delay</field>
                                                                       </block>
                                                                     </value>
                                                                     <next>
-                                                                      <block type="oled_cleardisplay" id="483">
+                                                                      <block type="oled_cleardisplay" id="30">
                                                                         <next>
-                                                                          <block type="multimedia_playwav" id="729">
+                                                                          <block type="multimedia_playwav" id="31">
                                                                             <field name="WAV">_SndTest.wav</field>
                                                                             <next>
-                                                                              <block type="multimedia_playwav" id="730">
+                                                                              <block type="multimedia_playwav" id="32">
                                                                                 <field name="WAV">_SndTest.wav</field>
                                                                                 <next>
-                                                                                  <block type="multimedia_playwav" id="731">
+                                                                                  <block type="multimedia_playwav" id="33">
                                                                                     <field name="WAV">_SndTest.wav</field>
                                                                                     <next>
-                                                                                      <block type="oled_setcursor" id="484" inline="true">
+                                                                                      <block type="oled_setcursor" id="34" inline="true">
                                                                                         <value name="STARTX">
-                                                                                          <block type="variables_get" id="485">
+                                                                                          <block type="variables_get" id="35">
                                                                                             <field name="VAR">linestart</field>
                                                                                           </block>
                                                                                         </value>
                                                                                         <value name="STARTY">
-                                                                                          <block type="math_number" id="486">
+                                                                                          <block type="math_number" id="36">
                                                                                             <field name="NUM">18</field>
                                                                                           </block>
                                                                                         </value>
                                                                                         <next>
-                                                                                          <block type="oled_drawtext" id="487">
+                                                                                          <block type="oled_drawtext" id="37">
                                                                                             <field name="TEXT">Oops. Times up.</field>
                                                                                             <next>
-                                                                                              <block type="robot_delay" id="505" inline="true">
+                                                                                              <block type="robot_delay" id="38" inline="true">
                                                                                                 <value name="DELAY">
-                                                                                                  <block type="variables_get" id="508">
+                                                                                                  <block type="variables_get" id="39">
                                                                                                     <field name="VAR">delay</field>
                                                                                                   </block>
                                                                                                 </value>
                                                                                                 <next>
-                                                                                                  <block type="oled_setcursor" id="488" inline="true">
+                                                                                                  <block type="oled_setcursor" id="40" inline="true">
                                                                                                     <value name="STARTX">
-                                                                                                      <block type="variables_get" id="489">
+                                                                                                      <block type="variables_get" id="41">
                                                                                                         <field name="VAR">linestart</field>
                                                                                                       </block>
                                                                                                     </value>
                                                                                                     <value name="STARTY">
-                                                                                                      <block type="math_number" id="490">
+                                                                                                      <block type="math_number" id="42">
                                                                                                         <field name="NUM">24</field>
                                                                                                       </block>
                                                                                                     </value>
                                                                                                     <next>
-                                                                                                      <block type="oled_drawtext" id="491">
+                                                                                                      <block type="oled_drawtext" id="43">
                                                                                                         <field name="TEXT">Good by!</field>
                                                                                                         <next>
-                                                                                                          <block type="robot_delay" id="499" inline="true">
+                                                                                                          <block type="robot_delay" id="44" inline="true">
                                                                                                             <value name="DELAY">
-                                                                                                              <block type="variables_get" id="507">
+                                                                                                              <block type="variables_get" id="45">
                                                                                                                 <field name="VAR">delay</field>
                                                                                                               </block>
                                                                                                             </value>
                                                                                                             <next>
-                                                                                                              <block type="oled_cleardisplay" id="492">
+                                                                                                              <block type="oled_cleardisplay" id="46">
                                                                                                                 <next>
-                                                                                                                  <block type="oled_setcursor" id="501" inline="true">
+                                                                                                                  <block type="oled_setcursor" id="47" inline="true">
                                                                                                                     <value name="STARTX">
-                                                                                                                      <block type="variables_get" id="502">
+                                                                                                                      <block type="variables_get" id="48">
                                                                                                                         <field name="VAR">linestart</field>
                                                                                                                       </block>
                                                                                                                     </value>
                                                                                                                     <value name="STARTY">
-                                                                                                                      <block type="math_number" id="503">
+                                                                                                                      <block type="math_number" id="49">
                                                                                                                         <field name="NUM">18</field>
                                                                                                                       </block>
                                                                                                                     </value>
                                                                                                                     <next>
-                                                                                                                      <block type="oled_drawtext" id="504">
+                                                                                                                      <block type="oled_drawtext" id="50">
                                                                                                                         <field name="TEXT">FIN</field>
                                                                                                                       </block>
                                                                                                                     </next>
